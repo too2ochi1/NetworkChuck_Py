@@ -1,9 +1,9 @@
 print("Hello and welcome to JasonBrew!!!!!")
 
 name = input("What is your name?\n")
-
-if name == "Ben":
-    print("You're not welcome here. Go away")
+choice = input("Would you like Tea or Coffee?\n")
+if (name == "Ben" or name == "Penny" or name == "Loki") and choice == "Tea":  #Apparently NetworkChuck-sensei determined Loki irredeemable, and also despises tea
+    print("You're not welcome here " + name + ". Go away with your trashy " + choice + " taste!!")
     exit()
 else:
     print("Hello " + name + ", thanks for coming in today.")
