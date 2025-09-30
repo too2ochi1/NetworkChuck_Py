@@ -18,7 +18,7 @@ No, I am Kuro-chan
 #Concatenations are basically when you try to add multiple strings together usin the "+" symbol
 
 print("Hi" + "I'm" + "Jason")
-#When you run this line directly aove this comment the way it is, the result is : HiI'mJason, Like literally. So you need to add spaces within the quotes of the strings like:
+#When you run this line directly aove this comment the way it is, the result is : Hi I'm Jason, Like literally. So you need to add spaces within the quotes of the strings like:
 
 print("I"+ " like" + " bread")
 
